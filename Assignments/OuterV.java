@@ -1,4 +1,4 @@
-package com.ineuron.assignments;
+
 
 public class OuterV {
     public static void main(String[] args) {
