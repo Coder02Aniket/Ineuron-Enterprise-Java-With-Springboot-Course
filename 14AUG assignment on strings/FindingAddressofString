@@ -1,0 +1,10 @@
+import java.util.HexFormat;
+
+public class StringAddr {
+    public static void main(String[] args) {
+        String nm =  "ANiket" ;
+        int a = System.identityHashCode(nm) ;
+        String n  = Integer.toHexString(nm.hashCode()) ;
+        System.out.println(n) ;
+    }
+}
